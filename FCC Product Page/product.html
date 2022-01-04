@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <title>FCC Project Product Page</title>
+    </head>
+
+    <body>
+    <div id="page-wrapper">
+        <header id="header">
+            <div class="logo">
+                <img 
+                    id="header-img"
+                    src="https://i.imgur.com/o8wLnhc.png"
+                    alt="keyboard company logo"
+                />
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#features">Features</a></li>
+                    <li><a class="nav-link" href="#learn">Learn</a></li>
+                    <li><a class="nav-link" href="#shop">Shop</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+			<section id="product-images">
+                <div class="images-container">
+                    <div class="img-div">
+                        <img class="keyboard-img" src="https://images-na.ssl-images-amazon.com/images/I/71remv%2BCJRL._AC_SL1500_.jpg" alt="">
+                    </div>
+                    <div class="img-div">
+                        <img class="keyboard-img" src="https://cdn.shopify.com/s/files/1/0274/4182/3823/products/k80gamingkeyboard_1200x1200.jpg?v=1607044001" alt="">
+                    </div>
+                    <div class="img-div">
+                        <img class="keyboard-img" src="https://www.legitreviews.com/wp-content/uploads/2017/01/K95-Keyboard.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <div class="container">
+                <section id="features">
+                  <div class="grid">
+                    <div class="icon"><i class="fa fa-3x fa-cogs"></i></div>
+                    <div class="desc">
+                      <h2>What is a Mechanical Keyboard?</h2>
+                      <p>
+                        A mechanical keyboard is built with high quality, typically spring activated key switches. 
+                        These key switches vary based on the keyboard’s application or user preference.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="grid">
+                    <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+                    <div class="desc">
+                      <h2>Fast Shipping</h2>
+                      <p>
+                        We make sure you recieve your keyboard as soon as we have finished
+                        making it. We also provide free returns if you are not satisfied.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="grid">
+                    <div class="icon">
+                      <i class="fa fa-3x fa-check" aria-hidden="true"></i>
+                    </div>
+                    <div class="desc">
+                      <h2>Quality Assurance</h2>
+                      <p>
+                        For every purchase you make, we will ensure there are no damages or
+                        faults.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="grid">
+                    <div class="icon">
+                      <i class="fa fa-3x fa-key" aria-hidden="true"></i>
+                    </div>
+                    <div class="desc">
+                      <h2>Learn</h2>
+                      <p>
+                        Learn the basics of typing here!
+                      </p>
+                    </div>
+                  </div>
+                </section>
+
+                <section id="learn">
+                    <iframe 
+                        id="video"
+                        width="560" 
+                        height="415" 
+                        src="https://www.youtube.com/embed/2S3lhm8LaZo" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </section><br><br>
+
+                <section id="shop">
+                    <div class="grid">
+                      <div class="icon"><i class="fa fa-3x fa-shopping-bag"></i></div>
+                      <div class="desc">
+                        <h2>Wanna purchase our keyboard?</h2>
+                        <p>
+                          The prototype is currently in progress. We will announce the release date soon.
+                          Please leave your email and we will update you!
+                        </p>
+                        <form id="form" action="https://www.freecodecamp.com/email-submit">
+                            <input
+                              name="email"
+                              id="email"
+                              type="email"
+                              placeholder="Enter your email address"
+                              required
+                            />
+                            <input id="submit" type="submit" value="SUBSCRIBE!" class="button" />
+                        </form>
+                      </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    </body>
+</html>
+

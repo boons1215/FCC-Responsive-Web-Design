@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Vollkorn:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap");
+
+html {
+  background-color: black;
+}
+
+body {
+  background: black;
+}
+
+#main {
+  background: linear-gradient(#a2c9f5, #8a9baf) fixed;
+  border-radius: 5px;
+  margin: 30px 8px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Bona Nova", "Vollkorn", serif;
+  text-align: justify;
+  font-size: 16px;
+}
+
+#title {
+  font-family: "Bebas Neue", "Dancing Script", Arial, sans-serif;
+  color: whitesmoke;
+  font-size: 6em;
+}
+
+#img-div {
+  background: whitesmoke;
+  padding: 10px;
+  margin: 10px;
+  display: grid;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-caption {
+  margin: 5px 0 5px 0;
+  text-align: justify;
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  color: lightcoral;
+}
+
+.quote {
+  text-align: center;
+  font-family: "Dancing Script", Arial, sans-serif;
+  color: whitesmoke;
+  font-size: 2em;
+}
+
+.year {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  color: darkblue;
+  font-family: "Vollkorn", serif;
+}
+
+.subject {
+  font-family: "Bebas Neue", "Vollkorn", serif;
+  font-size: 3em;
+}
+
+.footerimage {
+  position: relative;
+  width: 100%;
+  text-align: bottom;
+}
+
+h1 {
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
+  top: 200px;
+  width: 100%;
+  color: white;
+  font-size: 1.5em;
+  font-family: "Bebas Neue", Arial, sans-serif;
+}
+
+strong {
+  color: black;
+}
+
+@media (max-width: 800px) {
+  #main {
+    margin: 0;
+  }
+
+  #img-caption {
+    font-size: 0.8rem;
+  }
+
+  .footerimage {
+    position: relative;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .footertext {
+    width: 90%;
+    text-align: bottom;
+    margin-bottom: auto;
+  }
+}
+
